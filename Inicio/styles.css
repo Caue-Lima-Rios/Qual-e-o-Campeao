@@ -1,5 +1,70 @@
+@import url(https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=Beaufort+for+LOL+Bold);
+
+@font-face {
+    font-family: "Beaufort for LOL Bold";
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot");
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#Beaufort for LOL Bold")format("svg");
+}
+
 body {
     background-image: url('/Imagens/shadow-isles_splash.jpg');
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    overflow: hidden;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.retangulo {
+  display: inline-block;
+  background-color: rgb(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  margin: 0;
+  font-family: "Beaufort for LOL Bold";
+  text-align: center; 
+  line-height: 0.8;
+}
+
+.titulo-g {
+  font-size: 90px;
+}
+
+.titulo-p {
+  font-size: 65px;
+}
+
+.o {
+  margin-left: -10px;
+}
+
+button {
+    background-color: black; 
+    color: white; 
+    border: none;
+    border-radius: 30px; 
+    padding: 10px 20px; 
+    margin-top: 30px; 
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  #escolher-modo {
+    display: none;
+}
+
+#escolher-modo.mostrar {
+    display: block;
 }
