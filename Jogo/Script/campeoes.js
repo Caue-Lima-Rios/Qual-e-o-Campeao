@@ -94,7 +94,7 @@ const campeoes = [
         raça: 'Humano',
         sexo: 'Homem',
         lane: 'Jungle',
-        build: 'Ad',
+        build: 'Tank ou Letality',
         regiao: 'Ionia',
         classe: 'Assassino/lutador'
     },
@@ -287,5 +287,26 @@ const campeoes = [
         build: 'Ad',
         regiao: 'Zaun',
         classe: 'Lutador'
+    },
+
+    {
+        nome: 'Urgot',
+        raça: 'Humano/Quimtech',
+        sexo: 'Homem',
+        lane: 'Top',
+        build: 'Ad',
+        regiao: 'Zaun',
+        classe: 'Atirador/Lutador'
+    },
+    
+    {
+        nome: 'Zed',
+        raça: 'Humano',
+        sexo: 'Homem',
+        lane: 'Mid',
+        build: 'Letality',
+        regiao: 'Ionia',
+        classe: 'Assassino'
     }
+    
 ];
